@@ -1,8 +1,8 @@
 import React from 'react';
-import { 
-  PiSquaresFourDuotone, 
-  PiGitMergeDuotone, 
-  PiShieldCheckDuotone, 
+import {
+  PiSquaresFourDuotone,
+  PiGitMergeDuotone,
+  PiShieldCheckDuotone,
   PiGearDuotone,
   PiRobotDuotone
 } from 'react-icons/pi';
@@ -11,7 +11,10 @@ export const Sidebar: React.FC = () => {
   return (
     <div className="fixed left-0 top-0 h-full w-64 bg-[#121213]/90 backdrop-blur-md border-r border-[rgba(255,255,255,0.1)] z-50 flex flex-col">
       <div className="p-6 flex items-center gap-3">
-        <PiRobotDuotone size={32} className="text-[#00d6cb] filter drop-shadow-[0_0_8px_rgba(0,214,203,0.5)]" />
+        <PiRobotDuotone
+          size={32}
+          className="text-[#00d6cb] filter drop-shadow-[0_0_8px_rgba(0,214,203,0.5)]"
+        />
         <h1 className="font-logo font-bold text-xl tracking-wide text-white">
           REGAIN<span className="text-[#00d6cb]">FLOW</span>
         </h1>
@@ -53,7 +56,10 @@ const NavItem: React.FC<NavItemProps> = ({ icon: Icon, label, active }) => (
         : 'text-[#a6a6a6] hover:bg-[rgba(255,255,255,0.05)] hover:text-white'
     }`}
   >
-    <Icon size={20} className={active ? 'drop-shadow-[0_0_5px_rgba(0,214,203,0.5)]' : ''} />
+    <Icon
+      size={20}
+      className={active ? 'drop-shadow-[0_0_5px_rgba(0,214,203,0.5)]' : ''}
+    />
     <span className="font-medium text-sm">{label}</span>
   </button>
 );
