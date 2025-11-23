@@ -1,0 +1,5 @@
+{
+  "name": "HCM Interoperability Platform",
+  "description": "End-to-end validation dashboard for TE, GL, Payroll, and HRIS systems integration.",
+  "requestFramePermissions": []
+}
