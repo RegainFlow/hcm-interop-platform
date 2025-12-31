@@ -17,7 +17,7 @@ export const Sidebar: React.FC = () => {
           className="text-[#00d6cb] filter drop-shadow-[0_0_8px_rgba(0,214,203,0.5)]"
         />
         <h1 className="font-logo font-bold text-xl tracking-wide text-white">
-          REGAIN<span className="text-[#00d6cb]">FLOW</span>
+          HCM<span className="text-[#00d6cb]"> Interoperability Platform</span>
         </h1>
       </div>
 

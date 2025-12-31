@@ -1,6 +1,6 @@
-# Contributing to RegainFlow
+# Contributing to HCM Interoperability Platform
 
-Welcome to the RegainFlow project! We're building a high-performance HCM Interoperability Platform. This document provides guidelines for contributing to the project.
+We're building a high-performance HCM Interoperability Platform. This document provides guidelines for contributing to the project.
 
 ## Architecture
 
