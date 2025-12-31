@@ -1,5 +1,5 @@
 {
   "name": "HCM Interoperability Platform",
-  "description": "End-to-end validation dashboard for TE, GL, Payroll, and HRIS systems integration.",
+  "description": "Cross-platform integration framework for multi-brand HR ecosystem covering Payroll, Finance, Benefits, and Workforce Management systems. Engineered schema harmonization layer and deterministic validation pipelines to reconcile data across legacy and modernized platforms.",
   "requestFramePermissions": []
 }

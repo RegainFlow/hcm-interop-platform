@@ -1,6 +1,6 @@
 # Contributing to RegainFlow
 
-Welcome to the RegainFlow project! We're building a high-performance HCM Interoperability Platform. This document provides guidelines for contributing to the project.
+Welcome to the RegainFlow project! We're building a high-performance HCM Interoperability Platform for multi-enterprise HR ecosystem integration. This document provides guidelines for contributing to the project.
 
 ## Architecture
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { LogEntry } from '../types';
+import { formatSourceName } from '../utils/formatters';
 import {
   PiWarningDuotone,
   PiCheckCircleDuotone,
@@ -61,7 +62,7 @@ export const ValidationTable: React.FC<ValidationTableProps> = ({ logs }) => {
                 </td>
                 <td className="py-4 px-4">
                   <span className="px-2 py-1 rounded-md text-xs font-medium bg-[rgba(255,255,255,0.05)] text-white border border-[rgba(255,255,255,0.1)]">
-                    {log.source}
+                    {formatSourceName(log.source)}
                   </span>
                 </td>
                 <td className="py-4 px-4 text-sm text-[#00d6cb] font-mono">

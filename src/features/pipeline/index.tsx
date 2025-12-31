@@ -35,7 +35,7 @@ export const PipelineView: React.FC = () => {
                     {/* Source Systems (Always Active) */}
                     <PipelineNode
                         title="Source Systems"
-                        subtitle="TE, GL, Payroll"
+                        subtitle="Multi-System Sources"
                         icon={PiDatabaseDuotone}
                         status="active"
                     />
