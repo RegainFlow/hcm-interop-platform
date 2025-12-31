@@ -78,7 +78,7 @@ export const Dashboard: React.FC = () => {
                         System Health
                     </h3>
                     <p className="text-[#a6a6a6] max-w-sm mb-6">
-                        All 300+ tables across TE, GL, Payroll, and HRIS are syncing
+                        Enterprise-scale multi-system integration across Time Tracking, Finance, Payroll, HRIS, Benefits, and Workforce Management
                         within defined thresholds. Schema normalization active.
                     </p>
                     <div className="flex gap-4">

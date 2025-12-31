@@ -20,11 +20,22 @@ export interface PipelineStage {
 export interface LogEntry {
   id: string;
   timestamp: string;
-  source: 'TE' | 'GL' | 'PAYROLL' | 'HRIS' | 'SAP';
+  source: 'TIME_TRACKING' | 'FINANCE' | 'PAYROLL' | 'HRIS' | 'SAP' | 'BENEFITS' | 'WORKFORCE_MGMT';
   table: string;
   message: string;
   status: 'success' | 'error' | 'warning';
 }
+
+// Helper for display-friendly source names
+export const SOURCE_DISPLAY_NAMES: Record<LogEntry['source'], string> = {
+  TIME_TRACKING: 'Time Tracking',
+  FINANCE: 'Finance',
+  PAYROLL: 'Payroll',
+  HRIS: 'HRIS',
+  SAP: 'SAP',
+  BENEFITS: 'Benefits',
+  WORKFORCE_MGMT: 'Workforce Management'
+} as const;
 
 export enum ChartPeriod {
   HOURLY = 'Hourly',

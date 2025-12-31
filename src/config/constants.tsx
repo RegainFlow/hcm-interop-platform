@@ -49,7 +49,7 @@ export const METRICS: Metric[] = [
 export const PIPELINE_STAGES: PipelineStage[] = [
   {
     id: '1',
-    name: 'Ingestion (TE/GL/Pay)',
+    name: 'Ingestion (Multi-Source)',
     status: 'completed',
     itemsProcessed: 45200,
     totalItems: 45200,
@@ -93,16 +93,16 @@ export const RECENT_LOGS: LogEntry[] = [
   {
     id: 'LOG-9921',
     timestamp: '10:42:05',
-    source: 'TE',
-    table: 'T_EXPENSE_HEADERS',
+    source: 'TIME_TRACKING',
+    table: 'TIME_EXPENSE_HEADERS',
     message: 'Schema validation passed for batch #4021',
     status: 'success'
   },
   {
     id: 'LOG-9920',
     timestamp: '10:41:58',
-    source: 'GL',
-    table: 'GL_JOURNAL_LINES',
+    source: 'FINANCE',
+    table: 'FINANCE_JOURNAL_LINES',
     message: 'Field transformation warning: Currency precision',
     status: 'warning'
   },
@@ -125,8 +125,8 @@ export const RECENT_LOGS: LogEntry[] = [
   {
     id: 'LOG-9917',
     timestamp: '10:39:55',
-    source: 'TE',
-    table: 'T_TRAVEL_REQ',
+    source: 'TIME_TRACKING',
+    table: 'TIME_TRAVEL_REQ',
     message: 'Normalization complete',
     status: 'success'
   }
